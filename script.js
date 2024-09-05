@@ -43,10 +43,16 @@ const gamePromoConfigs = {
         attemptsNumber: 23
     },
     FluffCrusade: {
-      appToken: '112887b0-a8af-4eb2-ac63-d82df78283d9',
-      promoId: '112887b0-a8af-4eb2-ac63-d82df78283d9',
-      eventsDelay: 20000,
-      attemptsNumber: 30
+        appToken: '112887b0-a8af-4eb2-ac63-d82df78283d9',
+        promoId: '112887b0-a8af-4eb2-ac63-d82df78283d9',
+        eventsDelay: 20000,
+        attemptsNumber: 30
+    },
+    TileTrio: {
+        appToken: 'e68b39d2-4880-4a31-b3aa-0393e7df10c7',
+        promoId: 'e68b39d2-4880-4a31-b3aa-0393e7df10c7',
+        eventsDelay: 20000,
+        attemptsNumber: 30
     }
 };
 
@@ -180,7 +186,7 @@ document.getElementById('startBtn').addEventListener('click', async () => {
             startBtn.disabled = false;
             return null;
         }
-        
+
         for (let i = 0; i < currentAppConfig.attemptsNumber; i++) {
             await sleep(currentAppConfig.eventsDelay * delayRandom());
             const hasCode = await emulateProgress(clientToken);
@@ -287,7 +293,7 @@ async function login(clientId) {
         } else {
             throw new Error(data.error_message || 'Failed to log in');
         }
-        
+
     }
     return data.clientToken;
 }
@@ -316,7 +322,7 @@ function generateUUID() {
         ].join('-');
     } else {
         console.warn('crypto.getRandomValues not supported. Falling back to a less secure method.');
-        return 'xxxxxxxx-xxxx-4xxx-yxxx-xxxxxxxxxxxx'.replace(/[xy]/g, function(c) {
+        return 'xxxxxxxx-xxxx-4xxx-yxxx-xxxxxxxxxxxx'.replace(/[xy]/g, function (c) {
             var r = Math.random() * 16 | 0, v = c === 'x' ? r : (r & 0x3 | 0x8);
             return v.toString(16);
         });

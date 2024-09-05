@@ -18,6 +18,7 @@ Hamster Kombat Universal Key Generator is a web application designed to generate
   - Mow and Trim
   - Zoopolis
   - Fluff Crusade
+  - Tile Trio
 
 ## Getting Started
 
