@@ -21,6 +21,7 @@ Hamster Kombat Universal Key Generator is a web application designed to generate
   - Tile Trio
   - Stone Age
   - Bouncemasters
+  - Hide Balls
 
 ## Getting Started
 
