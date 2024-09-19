@@ -26,12 +26,13 @@ Hamster Kombat Universal Key Generator is a web application designed to generate
   - Pin Out Master
   - Infected Frontier
   - Among Water
+  - Factory World
 
 ## Getting Started
 
 To use the Hamster Kombat key generator:
 
-1. Visit the [Hamster Kombat Universal Key Generator](https://kovirum.github.io/hamster_kombat_bike_keygen_web/) website.
+1. Visit the [Hamster Kombat Universal Key Generator](https://hamsterkombatkeys.andreybazykin.com/) website.
 2. Select the number of keys you wish to generate.
 3. Choose the game within "Hamster Kombat" for which you need the keys.
 4. Click on the `Generate Keys` button to start the process.
